@@ -13,7 +13,7 @@ public class LogUploader {
             //不同的日志类型对应不同的URL
 
             //本地启动的logger模块
-            URL url = new URL("http://hadoop102:80/log");
+            URL url = new URL("http://cdh3:80/log");
 
             //单机测试
             //URL url = new URL("http://hadoop102:8080/log");
