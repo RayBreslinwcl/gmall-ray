@@ -36,7 +36,7 @@ public class LoggerController {
         JSONObject jsonObject = JSON.parseObject(logStr);
         jsonObject.put("ts", System.currentTimeMillis());
 
-        //1 打印到控制台并输出至文件
+        //1  打印到控制台并输出至文件
         String tsLogStr = jsonObject.toString();
         log.info(tsLogStr);
 
